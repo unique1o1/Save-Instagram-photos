@@ -68,7 +68,7 @@ class gui():
             return
 
         if self.success==1:
-            
+            print('sucess')
             self.label=ttk.Label(self.master, text='Success')
             
             self.label.config(wraplength=90, justify = LEFT, background='green',font = (8))
